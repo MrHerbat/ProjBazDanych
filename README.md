@@ -1,0 +1,2 @@
+# ProjBazDanych
+ak
