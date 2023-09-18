@@ -37,12 +37,11 @@ PRZYKŁAD:
 
 ZWIĄZEK LOGICZNY:
 Związek, inaczej zwany RELACJĄ to logiczne powiązanie wystepująe pomiędzy poszczególnymi encjami (dwoma lub więcej). Każda z relacji musi zostać właściwie nazwana by modele ER były czytelne i zrozumiałe dla ludzi. Nazwe wpisujemy środku. Ważnym aspektem związku jest jego liczebność - inaczej nazywana typamni związku, a także opcjonalność. Związek w diagramach oznaczany jest najczęściej strzałką, bądź też linią przerywaną lub ciągłą, co jest zależne od cechy jaką jest opcjonalność. Dodatkowo do nich muszą zostać dopisane anzwy, a także określone zakończenia - zależne między innymi od typów danego związku (1:1, 1:N, N:N).
-      /\
-    /    \
-  /        \
-  \        /
-    \    /
-      \/
+       ^
+    /     \
+  <         >
+    \     /
+       V
 
 
 
@@ -71,4 +70,16 @@ PRZYKŁAD POŁĄCZENIA ENCJI Z ATRYBUTAMI:
                    |      człowiek     |
                    +-------------------+
 
+
+
+PRZYKŁAD POŁĄCZENIA Z ENCJAMI:
+
+
+                                            ^
+                                          /   \
+       +-------------------+            /       \           +-----------+
+       |      człowiek     |  - - - > <zamieszkuje> - - - > |    Dom    |
+       +-------------------+            \       /           +-----------+
+                                          \   /
+                                            V
 ______________________________________________________________
