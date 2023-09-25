@@ -111,7 +111,7 @@ Związki mogą posiadać również atrybuty:
                                  / \
                                /     \                   __________
 +------------+               /         \               /            \
-| Właściciel | ------->    <  Wynajmuje  >   <-------  (   Od kiedy   )
+| Właściciel | ------->    <  Wynajmuje  >   <------- (   Od kiedy   )
 +------------+               \         /               \ __________ / 
                                \     /
                                  \ /   
@@ -130,4 +130,15 @@ OZNACZENIE GRAFICZNE LICZEBNOŚCI W INNY SPOSÓB:
 1:1
 --|-------------|--
 ```
+
+INNE POWIĄZANIA:
+```
+
+----|-     powiązanie jednokrotne (obowiązkowe, tylko jeden)
+---0|-     powiązanie jednokrotne (opcjonalne, jeden lub zero)
+---|<-     powiązanie wielokrotne (obowiązkowe, co najmniej jeden)
+---0<-     powiązanie wielokrotne (opcjonalne, zero lub więcej)
+
+```
+
 ______________________________________________________________
