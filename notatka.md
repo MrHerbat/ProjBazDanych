@@ -30,7 +30,7 @@ PRZYKŁAD:
 +------------+
 |   Klient   |
 +------------+
-| ID_klienta | 
+| _ID_klienta_ | 
 |  Nazwisko  |
 |    Imie    |
 |    Pesel   |
@@ -172,5 +172,17 @@ PRZYKŁADY ILUSTRUJĄCE RÓŻNE KOMBINACJE:
                                 V
 
 ```
+
+
+TYPY ATRYBUTÓW:
+```
+- kluczowe
+- pochodne
+- częściowe
+```
+Atrybuty kluczowe tworzą klucz encji. Atrybuty kluczowe to atrybuty, które w sposób jednoznaczny identyfikują encję, która je posiada. znaczy to, że nie mogą występować dwie encje, które posiadają taką samą wartość kluczową.
+KLUCZ może być pojedynczym atrybutem lub ich zbiorem. W drugim przypadku wymóg jednoznaczności odnosi się do zbioru jako całości, a nie poszczególnych atrybutów, tzn. wymóg jednoznaczności odnosi się do 
+
+
 
 ______________________________________________________________
