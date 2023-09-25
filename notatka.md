@@ -30,7 +30,7 @@ PRZYKŁAD:
 +------------+
 |   Klient   |
 +------------+
-| _ID_klienta_ | 
+| ID_klienta | 
 |  Nazwisko  |
 |    Imie    |
 |    Pesel   |
@@ -177,12 +177,29 @@ PRZYKŁADY ILUSTRUJĄCE RÓŻNE KOMBINACJE:
 TYPY ATRYBUTÓW:
 ```
 - kluczowe
-- pochodne
-- częściowe
-```
 Atrybuty kluczowe tworzą klucz encji. Atrybuty kluczowe to atrybuty, które w sposób jednoznaczny identyfikują encję, która je posiada. znaczy to, że nie mogą występować dwie encje, które posiadają taką samą wartość kluczową.
-KLUCZ może być pojedynczym atrybutem lub ich zbiorem. W drugim przypadku wymóg jednoznaczności odnosi się do zbioru jako całości, a nie poszczególnych atrybutów, tzn. wymóg jednoznaczności odnosi się do 
+KLUCZ może być pojedynczym atrybutem lub ich zbiorem. W drugim przypadku wymóg jednoznaczności odnosi się do zbioru jako całości, a nie poszczególnych atrybutów.
+Oznacza się je podkreśleniem.
+- pochodne
+Używane jest do reprezentowania informacji, które mogą być obliczone na podstawie danych zgromadzonych w bazie, ale trzeba reprezentować je w modelu. Przykładem takiego atrybutu jest średnia ocena publikowanego materiału wyliczana na podstawie głosów oddanych przez czytelników. Owal rysowany jest przerywaną linią.
+- częściowe
+Pełnią taką samą rolę co zwykłe klucze, z tą różnicą, że samodzielnie nie identyfikują encji. Biora udział w kluczach, które tworzone są z atrybutów innych encji i występuja wyłącznie w słabych encjach. Oznacza się je linią przerywaną
+```
 
+SŁABE ENCJE to typ encji, w której składają się częściowo z atrybutów kluczowych innych encji.
 
+```
+++==============++
+|| Słaba encja  ||
+++==============++
+```
 
+ZWIĄZEK IDENTYFIKUJĄCY wskazuje zbiory encji, których klucze wykorzsytywane są przez zbiory słabych encji.
+```
+      // \\
+    //     \\
+  <<         >>
+   \\      //
+      \\ //
+```
 ______________________________________________________________
