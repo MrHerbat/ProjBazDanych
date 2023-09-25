@@ -141,4 +141,8 @@ INNE POWIĄZANIA:
 
 ```
 
+Symbole należy traktować tak, że jedna encja może być powiązana z taką liczbą encji, na jaką wskazuja znak leżący przy drugim zbiorze encji.
+
+
+
 ______________________________________________________________
