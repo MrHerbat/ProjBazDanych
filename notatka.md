@@ -57,7 +57,7 @@ PROSTOKĄT - oznacza encję lub zbiory encji. W środku zawierać musi nazwę en
 ```
 
 ELIPSA - zawiera atrybuty. W środku zawierać musi nazwę atrybutu lub zbioru atrybutów. Należy zapamiętać, że wewnątrz elipsy wpisujemy nazwę atrybutu, a nie jego wartość.
-   ```
+```
    _______________
  /                 \
 (       kolor       ) 
