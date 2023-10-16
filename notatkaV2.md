@@ -198,3 +198,4 @@ Związek indetyfikujące które klucze używane są przez zbiory słabych encji
    \\                    //
               \V/
 ```
+Dobry seed factorio 4154540054
