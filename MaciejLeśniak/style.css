@@ -1,0 +1,18 @@
+#card{
+    width: 400px;
+    height: fit-content;
+    border: 1px black solid;
+    display: inline-block;
+    margin: 10px;
+}
+img{
+    margin-left: 30px;
+    width: 75%;
+    align-self: center;
+}
+#insidetext{
+    margin: 5px;
+}
+#card>button{
+    margin: 20px;
+}
