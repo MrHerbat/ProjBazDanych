@@ -39,10 +39,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                             <div><img src='".$row['image']."' alt='grafika produktu'></div> <br>
                             <div id='insidetext'>".$row['name']."</div> <br>
                             <div id='insidetext'>".$row['description']."</div> <br>
-                            <div id='insidetext'>".$row['price']."zł</div>
+                            <div id='insidetext' class='price'>".$row['price']."zł</div>
                             <button type='submit' name='add-to-cart'>Dodaj do koszyka</button>
                         </div>
                     ";
+                    
                 }
             ?>
     </div>
